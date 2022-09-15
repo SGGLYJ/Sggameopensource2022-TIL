@@ -26,3 +26,8 @@ vim abc.txt// abc. txt 파일을 vim 에디터로 열기
 
 ##Git
 >대표적으로 쓰이는 버전 관리 시스템(Version Control System, VCS)
+
+###Git vs GitHub
+- git은 버전 관리 시스템이다.
+- GitHub는 git을 기반으로 만든 플랫폼
+	- GitHub에서 만들었는데, GitHub을 마이크로소프트가 인수

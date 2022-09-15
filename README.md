@@ -24,3 +24,5 @@ vim abc.txt// abc. txt 파일을 vim 에디터로 열기
 #### 스왑파일이 생기는 경우
 - Vim Editor로 파일을 열고 지시를 따른다.
 
+##Git
+>대표적으로 쓰이는 버전 관리 시스템(Version Control System, VCS)

@@ -24,10 +24,18 @@ vim abc.txt// abc. txt 파일을 vim 에디터로 열기
 #### 스왑파일이 생기는 경우
 - Vim Editor로 파일을 열고 지시를 따른다.
 
-##Git
+## Git
 >대표적으로 쓰이는 버전 관리 시스템(Version Control System, VCS)
 
-###Git vs GitHub
+### Git vs GitHub
 - git은 버전 관리 시스템이다.
 - GitHub는 git을 기반으로 만든 플랫폼
 	- GitHub에서 만들었는데, GitHub을 마이크로소프트가 인수
+
+### 다양한 버전 관리 시스템
+- 이름 변경
+	- 최종.hwp, 최종1.hwp
+- 자동저장 기능
+- git 이전 버전 관리 시스템
+	- SVN, CVS, Mercurial
+- 요즘은 git이 거의 표준이 됨

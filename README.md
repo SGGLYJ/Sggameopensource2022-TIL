@@ -65,3 +65,6 @@ git clone [저장소주소]
 ### Project
 - 칸반 보드 형태로 이슈관리를 하는 데 쓰인다.
 - 개인 계정에서 New Project 하면 개인 프로젝트가 되고, 조직에서 하면 조직의 Project가 된다.
+
+## Google에서 Search
+- 구글에 Awesome Unity Game Project를 검색하자.

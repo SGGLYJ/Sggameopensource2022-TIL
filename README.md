@@ -60,7 +60,7 @@ git clone [저장소주소]
 ###Organization
 - 팀 작업 할 때 Organization을 구성할 수 있다.
 - 다같이 포트폴리오 공유 가능
-- 이미 개인으로 만든 리포지토리를 Import할 수도 있다.(Owner를 변경하면 된다.)
+- 이미 개인으로 만든 리포지토리를 Import할 수도 있다.(Owner를 개인이 아니라 조직으로 변경하면 된다.)
 ###Project
 - 칸반 보드 형태로 이슈관리를 하는 데 쓰인다.
 - 개인 계정에서 New Project 하면 개인 프로젝트가 되고, 조직에서 하면 조직의 Project가 된다.

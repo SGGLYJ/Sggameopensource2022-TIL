@@ -68,3 +68,7 @@ git clone [저장소주소]
 
 ## Google에서 Search
 - 구글에 Awesome Unity Game Project를 검색하자.
+
+## README.md 쓰는법
+### 오픈 프로젝트
+제목, 태그, 설명, 프로젝트 소개, 구동 방법 다 들어가야 됨

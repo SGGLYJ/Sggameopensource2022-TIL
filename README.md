@@ -39,3 +39,19 @@ vim abc.txt// abc. txt 파일을 vim 에디터로 열기
 - git 이전 버전 관리 시스템
 	- SVN, CVS, Mercurial
 - 요즘은 git이 거의 표준이 됨
+
+###git clone [저장소주소]
+클론 하기 전, 확인한다.
+```bash
+git config --global user.name [닉네임]
+git config --global user.email [이메일]
+git config user.name
+git config user.email
+```
+이렇게 초기 세팅을 하고, 세팅된 내용을 확인할 수 있다.
+
+```bash
+git clone [저장소주소]
+```
+이렇게 저장소를 현재 작업 디렉토리(pwd로 확인)로 클론한다.
+현재 디렉토리에 새 폴더가 생성되어 그 안에 클론되므로, 따로 폴더 만들지 않도록 한다.

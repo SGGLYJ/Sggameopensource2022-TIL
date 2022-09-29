@@ -40,7 +40,7 @@ vim abc.txt// abc. txt 파일을 vim 에디터로 열기
 	- SVN, CVS, Mercurial
 - 요즘은 git이 거의 표준이 됨
 
-###git clone [저장소주소]
+### git clone [저장소주소]
 클론 하기 전, 확인한다.
 ```bash
 git config --global user.name [닉네임]
@@ -55,6 +55,21 @@ git clone [저장소주소]
 ```
 이렇게 저장소를 현재 작업 디렉토리(pwd로 확인)로 클론한다.
 현재 디렉토리에 새 폴더가 생성되어 그 안에 클론되므로, 따로 폴더 만들지 않도록 한다.
+
+### git checkout
+특정 커밋으로 작업 상태를 되돌리고 싶으면, 다음과 같이 명령한다.
+```bash
+git checkout [커밋값]
+```
+이렇게 특정 시점으로 체크아웃하면 detached HEAD 상태가 된다.
+확인할 것 확인했다면 뭐 건드리지 말고 다시 메인으로 돌아간다.
+```bash
+git checkout master
+git checkout main
+git checkout [브랜치명]
+git status //정상적으로 왔는지 확인용
+```
+이런 식으로 돌아갈 수 있다.
 
 ## GitHub
 ### Organization

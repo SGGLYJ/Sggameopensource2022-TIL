@@ -73,8 +73,11 @@ git status //정상적으로 왔는지 확인용
 
 ### 커밋 합치기
 저장 목적으로 쓸데없는 커밋이 생겼을 때, interactive rebase를 사용해서 둘을 합칠 수 있음
-git rebase -i HEAD~2 //헤드 기준으로 2개 커밋을 1개로 합침
+
+git rebase -i HEAD~2
+헤드 기준으로 2개 커밋을 1개로 합침
 스쿼시 - 이전 커밋에 다음 커밋을 녹여넣기 옵션 지정 가능
+
 git reset HEAD~1
 가장 최신 커밋을 삭제
 

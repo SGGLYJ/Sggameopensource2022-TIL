@@ -40,6 +40,16 @@ vim abc.txt// abc. txt 파일을 vim 에디터로 열기
 	- SVN, CVS, Mercurial
 - 요즘은 git이 거의 표준이 됨
 
+### git init
+- 빈 디렉토리를 만들고 이동해서, 현재 작업 디렉토리를 git 저장소로 만들 수 있음
+```bash
+mkdir [저장소명]
+cd [저장소명]
+pwd
+git init
+```
+이런 식으로 git 저장소를 만들 수 있다.
+
 ### git clone [저장소주소]
 클론 하기 전, 확인한다.
 ```bash

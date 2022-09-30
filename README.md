@@ -88,6 +88,7 @@ git config user.email
 
 ```bash
 git clone [저장소주소]
+git status
 ```
 이렇게 저장소를 현재 작업 디렉토리(pwd로 확인)로 클론한다.
 현재 디렉토리에 새 폴더가 생성되어 그 안에 클론되므로, 따로 폴더 만들지 않도록 한다.

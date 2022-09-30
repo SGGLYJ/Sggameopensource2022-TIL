@@ -60,6 +60,22 @@ git init
 - 커밋 단위가 작고 잘 쪼개져 있으면 장애에 대응하기 쉽다.
 - 커밋 이력이 맘에 안 든다면 .git파일을 삭제하여 한 번에 날릴 수 있다.
 
+### gitconfig 확인하기
+- 다음과 같이 config 상태를 확인할 수 있다.
+```bash
+git config --list
+```
+- 다음처럼 config을 전역으로 수정할 수 있다.
+```bash
+git config --global user.name "홍길동"
+git config --global user.email "email@domain.com"
+```
+- 다음과 같이 전역 설정된 사용자를 지울 수 있다.
+```bash
+git config --unset --global user.name
+git config --unset --global user.email
+```
+
 ### git clone [저장소주소]
 클론 하기 전, 확인한다.
 ```bash

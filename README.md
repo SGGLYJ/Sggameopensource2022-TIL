@@ -51,9 +51,7 @@ git init
 이런 식으로 git 저장소를 만들 수 있다.
 
 - .git파일을 지워서 커밋 이력을 날려버리고 싶을 때, 지울 수 있다.
-```bash
 
-```
 ### 커밋이란
 - 독립된 버전을 나타내는 스냅샷이다.
 - 논리적 변경이 있을 때 만든다. 가능하면 작을수록 좋다.
@@ -117,6 +115,16 @@ git rebase -i HEAD~2
 
 git reset HEAD~1
 가장 최신 커밋을 삭제
+
+### 브랜치 만들기
+- 어떤 목적을 가지고 코드를 수정할 필요가 있을 때 브랜치를 만들어서 작업한다.
+```bash
+git branch
+git branch SomeIssue
+git checkout SomeIssue
+git status
+```
+이런 식으로 브랜치 상태 확인, SomeIssue 브랜치 만들기, 브랜치로 이동까지 할 수 있다.
 
 ## GitHub
 ### Organization
